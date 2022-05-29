@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="Image2" fitHeight="400.0" fitWidth="400.0">
+         <image>
+            <Image url="@../img.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="p1" layoutX="469.0" layoutY="55.0" mnemonicParsing="false" onAction="#movePlayer1" text="Player 1" />
+      <Button fx:id="p2" layoutX="469.0" layoutY="128.0" mnemonicParsing="false" onAction="#movePlayer2" text="Player 2" />
+      <ImageView fx:id="Image3" fitHeight="23.0" fitWidth="16.0" layoutX="22.0" layoutY="413.0">
+         <image>
+            <Image url="@../green.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image" fitHeight="23.0" fitWidth="14.0" layoutX="7.0" layoutY="413.0">
+         <image>
+            <Image url="@../blue.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="l" layoutX="401.0" layoutY="223.0" prefHeight="25.0" prefWidth="198.0" text="Dice" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="lol" layoutX="402.0" layoutY="263.0" prefHeight="25.0" prefWidth="198.0" text="Winner" textFill="#1307f2">
+         <font>
+            <Font name="Javanese Text" size="13.0" />
+         </font></Label>
+      <ImageView fx:id="Image4" fitHeight="25.0" fitWidth="38.0" layoutX="537.0" layoutY="94.0">
+         <image>
+            <Image url="@../blueArrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image5" fitHeight="88.0" fitWidth="88.0" layoutX="454.0" layoutY="312.0">
+         <image>
+            <Image url="@die/die1.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
